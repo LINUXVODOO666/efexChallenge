@@ -3,7 +3,7 @@ from students.domain.interfaces import IStudents
 
 # Action class to retrieve all students from the database
 class GetAllStudents:
-    @inject.autoparams()  # Automatically injects dependencies
+    @inject.autoparams() 
     def __init__(self, database: IStudents):
         self.db = database
         
@@ -13,7 +13,7 @@ class GetAllStudents:
 
 # Action class to create a new student in the database
 class CreateStudent:
-    @inject.autoparams()  # Automatically injects dependencies
+    @inject.autoparams() 
     def __init__(self, database: IStudents):
         self.db = database
         
@@ -23,7 +23,7 @@ class CreateStudent:
 
 # Action class to retrieve a student by ID from the database
 class GetStudentById:
-    @inject.autoparams()  # Automatically injects dependencies
+    @inject.autoparams() 
     def __init__(self, database: IStudents):
         self.db = database
         
@@ -33,7 +33,7 @@ class GetStudentById:
 
 # Action class to update a student's data by ID in the database
 class UpdateStudentById:
-    @inject.autoparams()  # Automatically injects dependencies
+    @inject.autoparams() 
     def __init__(self, database: IStudents):
         self.db = database
         
