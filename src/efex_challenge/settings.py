@@ -82,7 +82,7 @@ DATABASES={
         'NAME':'efexChallenge',
         'USER':'root',
         'PASSWORD':'Maynex_2023**',
-        'HOST':'localhost',
+        'HOST':'10.6.0.5',
         'PORT': 3306
     }
 }
