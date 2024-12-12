@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'efexChallenge.urls'
+ROOT_URLCONF = 'efex_challenge.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'efexChallenge.wsgi.application'
+WSGI_APPLICATION = 'efex_challenge.wsgi.application'
 
 
 # Database
@@ -82,7 +82,7 @@ DATABASES={
         'NAME':'efexChallenge',
         'USER':'root',
         'PASSWORD':'Maynex_2023**',
-        'HOST':'10.6.0.5',
+        'HOST':'localhost',
         'PORT': 3306
     }
 }
