@@ -1,0 +1,53 @@
+db-data
+__pycache__/
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Django related
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+static/
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Environment variables (optional, depending on setup)
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# macOS related
+.DS_Store
+
+# Windows related
+Thumbs.db
+
+# Backup files
+*~ 
+*.bak
+*.swp
