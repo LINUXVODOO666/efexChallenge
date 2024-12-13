@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(&bijrhes#)zy5a^7lg#*u8llrxs%@u=c4id^w9-vr8-kh!8=7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','159.54.136.109']
+ALLOWED_HOSTS = ['localhost','159.54.136.109','10.6.0.10']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES={
     {
         'ENGINE':'django.db.backends.mysql',
         'NAME':'efexChallenge',
-        'USER':'root',
+        'USER':'administrator',
         'PASSWORD':'Maynex_2023**',
         'HOST':'10.6.0.5',
         'PORT': 3306
