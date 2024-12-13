@@ -80,7 +80,7 @@ DATABASES={
     {
         'ENGINE':'django.db.backends.mysql',
         'NAME':'efexChallenge',
-        'USER':'root',
+        'USER':'administrator',
         'PASSWORD':'Maynex_2023**',
         'HOST':'10.6.0.5',
         'PORT': 3306
