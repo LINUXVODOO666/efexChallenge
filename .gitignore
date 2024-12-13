@@ -19,8 +19,6 @@ build/
 *.pyc
 *.sqlite3
 db.sqlite3
-media/
-static/
 *.log
 *.pot
 *.pyc
